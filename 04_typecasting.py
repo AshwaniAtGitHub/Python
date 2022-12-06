@@ -16,3 +16,14 @@ number = 7
 string_number = int(string) #throws an error if the string is not a valid integer
 sum= number + string_number
 print("The Sum of both the numbers is: ", sum)
+
+
+'''
+    2. Implicit conversion
+    Data types in pyhton do not have the same level that is ordering of data type is not the same in Python.
+    Some of the data types have higher order and some have lower order. While performing any operations on variables with different data types in Python, one of the variable's data types will be changed to the higher data type.
+    According to the level, one data types will be converted into another by the Python interpreter itself. This is called, implicit typecasting in python.
+
+    Python converts a smaller data type to a higher data type to prevent data loss.
+
+'''
