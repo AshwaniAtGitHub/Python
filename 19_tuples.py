@@ -21,3 +21,27 @@ if  3421 in tup:
   print("Yes 342 is present in this tuple")
 tup2 = tup[1:4]
 print(tup2)
+
+
+# Tuple Indexes
+
+# Each item/element in a tuple has its own unique index. This index can be used to access any particular item from the tuple. The first item has index [0], second item has index [1], third item has index [2] and so on.
+
+# Example:
+
+country = ("Spain", "Italy", "India",)
+#            [0]      [1]      [2]
+
+# Accessing tuple items:
+# I. Positive Indexing:
+# As we have seen that tuple items have index, as such we can access items using these indexes.
+
+# Example:
+
+country = ("Spain", "Italy", "India",)
+#            [0]      [1]      [2]     
+print(country[0])
+print(country[1])
+print(country[2])
+
+
